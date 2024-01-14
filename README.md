@@ -13,10 +13,10 @@ It saves the first 10 images into a folder called "memes".
 - [x] Research for libraries
   - [x] Avoid libraries that do multiple steps
 - [x] Connect to the current version of the website https://memegen-link-examples-upleveled.netlify.app/
-  - [ ] Avoid any caching?
-- [ ] Download HTML string from the website and save in a variable
-- [ ] Search inside HTML string for `<img src="..." />` and extract to array of URLs (strings)
-  - [ ] Maybe inside of the `<section id="images">`?
+  - [x ] Avoid any caching?
+- [ x] Download HTML string from the website and save in a variable
+- [ x] Search inside HTML string for `<img src="..." />` and extract to array of URLs (strings)
+  - [ x] Maybe inside of the `<section id="images">`?
 - [ ] Extract first 10 URLs from array
 - [ ] Loop over array of first 10 URLs and:
   - [ ] Download the image data (string)

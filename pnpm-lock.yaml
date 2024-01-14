@@ -11,6 +11,12 @@ dependencies:
   cheerio:
     specifier: 1.0.0-rc.12
     version: 1.0.0-rc.12
+  extract-urls:
+    specifier: ^1.4.0
+    version: 1.4.0
+  fs:
+    specifier: 0.0.1-security
+    version: 0.0.1-security
 
 devDependencies:
   eslint-config-upleveled:
@@ -1673,6 +1679,11 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /extract-urls@1.4.0:
+    resolution: {integrity: sha512-x8OnCTbXW/I4BkdPeKuw9/1rThb9yoPRrKeYKafuSEEJ2epthzm/eSI2jYgZ0g2GiSydj2QGSogsJMlOi9isQA==}
+    engines: {node: '>=10'}
+    dev: false
+
   /fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
     dev: true
@@ -1773,6 +1784,10 @@ packages:
   /fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
+
+  /fs@0.0.1-security:
+    resolution: {integrity: sha512-3XY9e1pP0CVEUCdj5BmfIZxRBTSDycnbqhIOGec9QYtmVH2fbLpj86CFWkrNOkt/Fvty4KZG5lTglL9j/gJ87w==}
+    dev: false
 
   /function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
